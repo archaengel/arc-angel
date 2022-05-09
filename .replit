@@ -1,0 +1,10 @@
+compile=["yarn", "build"]
+run=["sh", "start.sh"]
+
+[nix]
+channel = "stable-21_11"
+
+[languages.typescript]
+pattern = "**/{*.ts,*.tsx}"
+  [languages.typescript.languageServer]
+  start = ["typescript-language-server", "--stdio"]
