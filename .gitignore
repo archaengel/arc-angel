@@ -1,0 +1,5 @@
+dist
+.config
+logs
+cache
+node_modules
