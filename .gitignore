@@ -3,3 +3,4 @@ dist
 logs
 cache
 node_modules
+./*.png
